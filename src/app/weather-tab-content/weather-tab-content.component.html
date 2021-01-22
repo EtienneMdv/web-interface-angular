@@ -1,0 +1,23 @@
+<div class="current-info">
+  <div *ngIf="!loaded" class="loader">
+    <mat-spinner style="margin:auto;" [diameter]="90"></mat-spinner>
+    <br>
+    <br>
+    Localisation en cours...
+  </div>
+  <div *ngIf="loaded">
+    <div class="city">
+      <span class="material-icons" style="font-size:40px">
+        location_on
+      </span>
+      {{ city }}
+    </div>
+    <br>
+    <div class="temperature">
+      <span class="material-icons" style="font-size:40px">
+        wb_sunny
+      </span>&nbsp;
+      {{ temperature }}°C
+    </div>
+  </div>
+</div>

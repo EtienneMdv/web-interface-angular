@@ -1,0 +1,22 @@
+h1 {
+  margin-top: -10px
+}
+
+h2, h3 {
+  font-family: Montserrat;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: -20px;
+}
+
+
+.titles {
+  display: inline-block;
+  margin-right: 90px;
+}

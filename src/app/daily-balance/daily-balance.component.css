@@ -1,0 +1,26 @@
+h2, h3 {
+  font-family: Montserrat;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+h3 {
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.chart-wrapper {
+  height: 450px;
+  width: 800px;
+}
+
+.slider-days {
+  display: inline-block;
+}
+
+.titles-graph {
+  display: inline-block;
+  margin-right: 90px;
+}

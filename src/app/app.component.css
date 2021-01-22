@@ -1,0 +1,41 @@
+h1 {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+::ng-deep .mat-tab-label .mat-tab-label-content {
+    font-family:Montserrat;
+    font-weight: 500;
+}
+
+.card-balance {
+  width: 820px;
+  justify-content: center;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.card-money {
+  width: 450px;
+  height: 95px;
+  justify-content: center;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.menu {
+  margin-right: 20px;
+  font-size: 26px;
+}
+
+.weather {
+  display: flex;
+  height: 100vh;
+  margin-top: 40px;
+  margin-left: 20px;
+  /* align-items: center; */
+}
